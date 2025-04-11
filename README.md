@@ -74,7 +74,8 @@ By completing this SQL project, you'll gain practical experience and valuable, t
 
 ### 
 
-### 
+### Bookstore ERD ![book-store drawio](https://github.com/user-attachments/assets/a3247b26-547a-465d-b77b-0b25935e48fd)
+
 
 ### 
 
