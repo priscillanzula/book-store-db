@@ -74,7 +74,11 @@ By completing this SQL project, you'll gain practical experience and valuable, t
 
 ### 
 
-### 
+### Bookstore ERD  
+
+![book-store ERD](https://github.com/user-attachments/assets/449061da-54a3-4409-9a4e-619b197b05d4)
+
+
 
 ### 
 
