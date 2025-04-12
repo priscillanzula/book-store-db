@@ -18,7 +18,7 @@ Designed and implemented a relational database system that efficiently stores an
 
 ### Features Implemented
 
-. Complete database schema with 15 interconnected tables
+**.** Complete database schema with 15 interconnected tables
 
 . Primary and foreign key constraints to maintain data integrity
 
