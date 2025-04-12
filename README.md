@@ -59,35 +59,36 @@ To set up this database:
 
 3. Test the database using queries.sql which contains sample querie
 
+
 ## Contributors
 
 <!-- readme: contributors -start -->
 <table>
-	<tbody>
-		<tr>
-            <td align="center">
-                <a href="https://github.com/faithchepkemoi99">
-                    <img src="https://avatars.githubusercontent.com/u/184145670?v=4" width="100;" alt="Faith Chepkemoi"/>
-                    <br />
-                    <sub><b>Faith Chepkemoi</b></sub>
-                </a>
-            </td>
-
-            <td align="center">
-                <a href="https://github.com/leisha-http">
-                    <img src="https://avatars.githubusercontent.com/u/201799064?v=4" width="100;" alt="Leisha"/>
-                    <br />
-                    <sub><b>Leisha</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/priscillanzula">
-                    <img src="https://avatars.githubusercontent.com/u/144167777?v=4" width="100;" alt="priscillanzula"/>
-                    <br />
-                    <sub><b>priscilla nzula</b></sub>
-                </a>
-            </td>
-            </tr>
-	<tbody>
+  <thead></thead>
+  <tbody>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/faithchepkemoi99">
+          <img src="https://avatars.githubusercontent.com/u/184145670?v=4" width="100;" alt="Faith Chepkemoi"/>
+          <br />
+          <sub><b>Faith Chepkemoi</b></sub>
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/leisha-http">
+          <img src="https://avatars.githubusercontent.com/u/201799064?v=4" width="100;" alt="Leisha"/>
+          <br />
+          <sub><b>Leisha</b></sub>
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/priscillanzula">
+          <img src="https://avatars.githubusercontent.com/u/144167777?v=4" width="100;" alt="priscillanzula"/>
+          <br />
+          <sub><b>Priscilla Nzula</b></sub>
+        </a>
+      </td>
+    </tr>
+  </tbody>
 </table>
 <!-- readme: contributors -end -->
