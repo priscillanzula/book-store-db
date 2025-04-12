@@ -1,6 +1,6 @@
 
 
-###**Bookstore Database Management System**
+### Bookstore Database Management System**
 
 Designed and implemented a relational database system that efficiently stores and retrieves information for a bookstore. The system tracks inventory, customer details, orders, shipping information, and maintains relationships between various entities such as books and authors.
 
