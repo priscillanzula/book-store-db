@@ -11,7 +11,63 @@ GRANT ALL PRIVILEGES ON bookstore.* TO 'leishahttp'@'localhost';
 GRANT ALL PRIVILEGES ON bookstore.* TO 'faithchepkemoi99'@'localhost';
 GRANT ALL PRIVILEGES ON bookstore.* TO 'priscillanzula'@'localhost';
 
+-- create book table
+CREATE TABLE Book ( 
+book_id INT PRIMARY KEY, 
+bookName VARCHAR(100) NOT NULL,
+pageCount INT NOT NULL,
+price DECIMAL(10,2) NOT NULL,
+language VARCHAR(100) NOT NULL,
+language_id INT NOT NULL,
+publisher_id VARCHAR(100) NOT NULL,
+publishYear INT NOT NULL,
+FOREIGN KEY (language_id) REFERENCES book_language(language_id),
+FOREIGN KEY (publisher_id) REFERENCES publisher(publisher_id)
+);
 
+-- create table author
+CREATE TABLE author (
+author_id INT PRIMARY KEY,
+firstName VARCHAR(100),
+lastName VARCHAR(100),
+biography TEXT
+);
+
+-- create table book_author
+CREATE TABLE book_author (
+book_id INT NOT NULL,
+author_id INT NOT NULL,
+PRIMARY KEY (book_id, author_id),
+FOREIGN KEY (book_id) REFERENCES book (book_id),
+FOREIGN KEY (author_id) REFERENCES author (author_id)
+);
+
+-- create book_language table
+CREATE TABLE book_language (
+language_id INT NOT NULL,
+book_id INT NOT NULL,
+language VARCHAR(100) NOT NULL,
+PRIMARY KEY (langugae_id),
+FOREIGN KEY (book_id) REFERENCES book (book_id)
+);
+
+-- create publisher table
+CREATE TABLE publisher(
+publisher_id INT NOT NULL,
+email VARCHAR(100) NOT NULL,
+phoneNumber VARCHAR(100) NOT NULL,
+publisherName VARCHAR(100) NOT NULL,
+PRIMARY KEY(publisher_id)
+);
+
+CREATE TABLE customer(
+customer_id INT NOT NULL,
+firstName VARCHAR(100) NOT NULL,
+lastName VARCHAR(100) NOT NULL,
+email VARCHAR(100) NOT NULL,
+phoneNumber VARCHAR(100) NOT NULL,
+PRIMARY KEY(customer_id)
+);
 
 -- create order_line table
 CREATE TABLE order_line (
