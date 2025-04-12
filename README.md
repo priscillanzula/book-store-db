@@ -82,9 +82,9 @@ To set up this database:
             </td>
             <td align="center">
                 <a href="https://github.com/priscillanzula">
-                    <img src="https://github.com/settings/profile" width="100;" alt="Priscilla Nzula"/>
+                    <img src="https://avatars.githubusercontent.com/u/144167777?v=4" width="100;" alt="priscillanzula"/>
                     <br />
-                    <sub><b>Priscilla Nzula</b></sub>
+                    <sub><b>priscilla nzula</b></sub>
                 </a>
             </td>
             </tr>
