@@ -2,7 +2,7 @@
 
 **Bookstore Database Management System**
 
-We designed and implemented a relational database system that efficiently stores and retrieves information for a bookstore. The system tracks inventory, customer details, orders, shipping information, and maintains relationships between various entities such as books and authors.
+Designed and implemented a relational database system that efficiently stores and retrieves information for a bookstore. The system tracks inventory, customer details, orders, shipping information, and maintains relationships between various entities such as books and authors.
 
 ### Project Objective
 
@@ -19,11 +19,17 @@ We designed and implemented a relational database system that efficiently stores
 ### Features Implemented
 
 . Complete database schema with 15 interconnected tables
+
 . Primary and foreign key constraints to maintain data integrity
+
 . Optimized data types (using DECIMAL for monetary values instead of FLOAT)
+
 . Many-to-many relationship management between books and authors
+
 . Customer address management system allowing multiple addresses per customer
+
 . Order tracking with status history
+
 . Shipping method integration
 
 ### 
