@@ -54,6 +54,7 @@ To set up this database:
 2. Run the SQL scripts in the following order:
 
 a.  create_tables.sql: Creates all database tables
+
 b.  insert_sample_data.sql: Populates tables with sample data (optional)
 
 
