@@ -37,7 +37,7 @@ CREATE TABLE Order_history(
 hitory_id INT NOT NULL,
 order_id INT NOT NULL,
 orderStatus_id INT NOT NULL,
-history VARCHAR(100) NOT NULL,
+history TEXT,
 PRIMARY KEY(history_id),
 FOREIGN KEY(order_id) REFERENCES Cust_order(order_id),
 FOREIGN KEY(orderStatus_id) REFERENCES Order_status(orderStatus_id)
