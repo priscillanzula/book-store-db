@@ -1,20 +1,30 @@
 
 
-**Database Design & Programming with SQL**
+**Bookstore Database Management System**
 
-**Overview**
+We designed and implemented a relational database system that efficiently stores and retrieves information for a bookstore. The system tracks inventory, customer details, orders, shipping information, and maintains relationships between various entities such as books and authors.
 
-In this project, you'll step into the role of a **database administrator** tasked with building a  **MySQL database** to store and manage data for a **BookStore**. By applying your skills in database design, table creation, data loading, and user management, you'll develop an organized system for this important real-world system. 
+### Project Objective
 
-This hands-on project provides valuable experience in efficiently structuring databases to handle large, complex data.
+### This database system aims to help in:
+
+1. Designing and implementing a MySQL database for a real-world bookstore scenario
+2. Creating tables with proper schema and optimal data types
+3. Establishing relationships between tables to maintain data integrity
+4. Managing database access with user groups and roles
+5. Querying data to extract meaningful insights
 
 ### 
 
-### 
+### Features Implemented
 
-### 
-
-### 
+. Complete database schema with 15 interconnected tables
+. Primary and foreign key constraints to maintain data integrity
+. Optimized data types (using DECIMAL for monetary values instead of FLOAT)
+. Many-to-many relationship management between books and authors
+. Customer address management system allowing multiple addresses per customer
+. Order tracking with status history
+. Shipping method integration
 
 ### 
 
