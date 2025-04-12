@@ -1,6 +1,6 @@
 
 
-**Bookstore Database Management System**
+###**Bookstore Database Management System**
 
 Designed and implemented a relational database system that efficiently stores and retrieves information for a bookstore. The system tracks inventory, customer details, orders, shipping information, and maintains relationships between various entities such as books and authors.
 
@@ -53,8 +53,8 @@ To set up this database:
 1. Clone this repository
 2. Run the SQL scripts in the following order:
 
--- create_tables.sql: Creates all database tables
--- insert_sample_data.sql: Populates tables with sample data (optional)
+a.  create_tables.sql: Creates all database tables
+b.  insert_sample_data.sql: Populates tables with sample data (optional)
 
 
 3. Test the database using queries.sql which contains sample querie
