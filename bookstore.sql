@@ -2,7 +2,6 @@
 CREATE DATABASE bookstoredb;
 
 USE bookstoredb;
-
 -- creating new users 
 CREATE USER 'leishahttp'@'localhost' IDENTIFIED BY '1234';
 CREATE USER 'faithchepkemoi99'@'localhost' IDENTIFIED BY '1234';
@@ -146,10 +145,11 @@ FOREIGN KEY(order_id) REFERENCES Cust_order(order_id),
 FOREIGN KEY(orderStatus_id) REFERENCES Order_status(orderStatus_id)
 );
 
-
 -- table to Stores the different statuses an order can have
 CREATE TABLE Order_status(
 orderStatus_id INT NOT NULL,
 statusName VARCHAR(100) NOT NULL,
 PRIMARY KEY(orderStatus_id)
 );
+
+
