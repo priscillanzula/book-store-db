@@ -41,8 +41,6 @@ We've included an Entity-Relationship Diagram (ERD) that visually represents the
 ### Bookstore ERD
 ![book-store drawio drawio](https://github.com/user-attachments/assets/4794bc12-6eb8-4aeb-b520-43260d5bb3a3)
 
-
-
 ### **Tools and Technologies**
 
 1. MySQL \- For building and managing the database  
@@ -53,15 +51,12 @@ We've included an Entity-Relationship Diagram (ERD) that visually represents the
 To set up this database:
 
 1. Clone this repository
+
 2. Run the SQL scripts in the following order:
+   a. create_tables.sql: Creates all database tables
+   b. insert_sample_data.sql: Populates tables with sample data (optional)
 
- a.  create_tables.sql: Creates all database tables
-
- b.  insert_sample_data.sql: Populates tables with sample data (optional)
-
-
-3. Test the database using queries.sql which contains sample querie
-
+3. Test the database using queries.sql which contains sample querie.
 
 ## Contributors
 
