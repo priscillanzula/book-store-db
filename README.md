@@ -39,7 +39,8 @@ Designed and implemented a relational database system that efficiently stores an
 We've included an Entity-Relationship Diagram (ERD) that visually represents the relationships between all tables in our database system. The diagram clearly shows primary and foreign keys, and how tables are connected to form a complete bookstore management system.
 
 ### Bookstore ERD
-![book-store drawio](https://github.com/user-attachments/assets/1d4984ad-4342-4d8f-98b6-81c49112c8c7)
+![Uploading book-store.drawio.svg…]()
+
 
 
 ### **Tools and Technologies**
