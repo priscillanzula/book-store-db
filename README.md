@@ -51,12 +51,10 @@ We've included an Entity-Relationship Diagram (ERD) that visually represents the
 To set up this database:
 
 1. Clone this repository
-2. Run the SQL scripts in the following order:
+2. Run the SQL scripts in the following order: 
+ a.  create_tables.sql: Creates all database tables
 
-      a.  create_tables.sql: Creates all database tables
-
-      b.  insert_sample_data.sql: Populates tables with sample data (optional)
-
+ b.  insert_sample_data.sql: Populates tables with sample data (optional)
 
 3. Test the database using queries.sql which contains sample querie
 
