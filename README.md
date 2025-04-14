@@ -1,122 +1,83 @@
 
 
-**Database Design & Programming with SQL**
+### Bookstore Database Management System
 
-**Overview**
+Designed and implemented a relational database system that efficiently stores and retrieves information for a bookstore. The system tracks inventory, customer details, orders, shipping information, and maintains relationships between various entities such as books and authors.
 
-In this project, you'll step into the role of a **database administrator** tasked with building a  **MySQL database** to store and manage data for a **BookStore**. By applying your skills in database design, table creation, data loading, and user management, you'll develop an organized system for this important real-world system. 
+### Project Objective
 
-This hands-on project provides valuable experience in efficiently structuring databases to handle large, complex data.
+### This database system aims to help in:
 
-### 
-
-### 
-
-### 
-
-### 
+1. Designing and implementing a MySQL database for a real-world bookstore scenario
+2. Creating tables with proper schema and optimal data types
+3. Establishing relationships between tables to maintain data integrity
+4. Managing database access with user groups and roles
+5. Querying data to extract meaningful insights
 
 ### 
 
+### Features Implemented
+
+1. Complete database schema with 15 interconnected tables
+
+2. Primary and foreign key constraints to maintain data integrity
+
+3. Optimized data types (using DECIMAL for monetary values instead of FLOAT)
+
+4. Many-to-many relationship management between books and authors
+
+5. Customer address management system allowing multiple addresses per customer
+
+6. Order tracking with status history
+
+7. Shipping method integration
+
+
 ### 
+
+### Entity-Relationship Diagram
+We've included an Entity-Relationship Diagram (ERD) that visually represents the relationships between all tables in our database system. The diagram clearly shows primary and foreign keys, and how tables are connected to form a complete bookstore management system.
+
+### Bookstore ERD
+![book-store drawio drawio](https://github.com/user-attachments/assets/4794bc12-6eb8-4aeb-b520-43260d5bb3a3)
+
 
 ### **Tools and Technologies**
 
 1. MySQL \- For building and managing the database  
 2. Draw.io \- For visualizing the database schema and relationships
 
-### 
+   
 
-### 
+## Contributors
 
-### 
-
-### **Prerequisites**
-
-To successfully complete this project, you should be comfortable with:
-
-* Understanding the basics of MySQL  
-* Creating tables in MySQL with the appropriate data types  
-* Managing MySQL users and applying security best practices
-
-### **Project Objective**
-
-### Your goal is to build a relational database that stores information about the bookstore's operations, including books, authors, customers, orders, shipping, and more. You will create a database that efficiently stores all necessary data and allows for quick retrieval and analysis.
-
-### 
-
-### 
-
-### **Step-by-Step Instructions**
-
-1. Create a new database to store bookstore data.  
-2. Determine the table schema and data types  
-3. Write the SQL commands to create tables that match the data structure  
-4. Set up user groups and roles to control access to the database  
-5. Test the database by running queries to retrieve and analyze the data
-
-### 
-
-### **Expected Outcomes**
-
-By completing this SQL project, you'll gain practical experience and valuable, transferable skills, including:
-
-* Designing and implementing a MySQL database for a real-world use case  
-* Creating tables with the optimal schema and data types for the dataset  
-* Managing database access through user groups and roles to ensure security  
-* Querying the data to extract meaningful insights 
-
-### 
-
-### 
-
-### 
-
-### 
-
-### 
-
-### 
-
-### 
-
-### **Tables to Be Created**
-
-Here are the key tables that you'll design and implement for the bookstore database:
-
-1. book: A list of all books available in the store.
-
-2. book\_author: A table to manage the many-to-many relationship between books and authors.
-
-3. author: A list of all authors.
-
-4. book\_language: A list of the possible languages of books.
-
-5. publisher: A list of publishers for books.
-
-6. Customer: A list of the bookstore's customers.
-
-7. customer\_address: A list of addresses for customers. Each customer can have multiple addresses.
-
-8. address\_status: A list of statuses for an address (e.g., current, old).
-
-9. address: A list of all addresses in the system.
-
-10. country: A list of countries where the addresses are located.
-
-11. cust\_order: A list of orders placed by customers.
-
-12. order\_line: A list of books that are part of each order.
-
-13. shipping\_method: A list of possible shipping methods for an order.
-
-14. order\_history: A record of the history of an order (e.g., ordered, cancelled, delivered).
-
-15. order\_status: A list of possible statuses for an order (e.g., pending, shipped, delivered). 
-
-**How to Submit.**
-
-1. The group leader should create a GitHub repository.  
-2. Deadline: **13/04/2025 11:59 pm EAT**
-
-3. Submit the GitHub repo link [here](https://forms.gle/DrKeuqKbeW45x9Gb6)
+<!-- readme: contributors -start -->
+<table>
+  <thead></thead>
+  <tbody>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/faithchepkemoi99">
+          <img src="https://avatars.githubusercontent.com/u/184145670?v=4" width="100;" alt="Faith Chepkemoi"/>
+          <br />
+          <sub><b>Faith Chepkemoi</b></sub>
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/leisha-http">
+          <img src="https://avatars.githubusercontent.com/u/201799064?v=4" width="100;" alt="Leisha"/>
+          <br />
+          <sub><b>Leisha</b></sub>
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/priscillanzula">
+          <img src="https://avatars.githubusercontent.com/u/144167777?v=4" width="100;" alt="priscillanzula"/>
+          <br />
+          <sub><b>Priscilla Nzula</b></sub>
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!-- readme: contributors -end -->
