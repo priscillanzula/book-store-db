@@ -152,6 +152,7 @@ statusName VARCHAR(100) NOT NULL,
 PRIMARY KEY(orderStatus_id)
 );
 
+
 -- Access control
 -- Create roles for different user groups
 CREATE ROLE admin_role,managerial_role,sales_role, inventory_role, customer_role; 
