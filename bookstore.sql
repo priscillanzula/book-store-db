@@ -68,6 +68,7 @@ phoneNumber VARCHAR(100) NOT NULL,
 PRIMARY KEY(customer_id)
 );
 
+
 -- table to stores list of countries
 CREATE TABLE Country(
 country_id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
@@ -102,8 +103,6 @@ FOREIGN KEY (customer_id) REFERENCES Customer(customer_id),
 FOREIGN KEY (address_id) REFERENCES Address(address_id),
 FOREIGN KEY (addressStatus_id) REFERENCES Address_status(addressStatus_id)
 );
-
-
 
 -- table to Stores the main information about customer orders
 CREATE TABLE Cust_order (
@@ -237,3 +236,4 @@ JOIN order_line ol ON b.book_id = ol.book_id
 JOIN publisher p ON b.publisher_id = p.publisher_id
 GROUP BY p.publisherName
 ORDER BY TotalRevenue DESC;
+
